@@ -12,7 +12,7 @@ printf "> Installing CLI tools...\n"
 brew install git stow kitty neovim
 
 printf "> Installing applications...\n"
-brew install --cask zen mos raycast bitwarden filen obsidian discord spotify bettertouchtool linearmouse
+brew install --cask zen mos raycast bitwarden filen obsidian discord spotify
 brew install --cask nikitabobko/tap/aerospace
 brew install yazi ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide resvg imagemagick font-symbols-only-nerd-font
 
@@ -44,7 +44,7 @@ mkdir -p ~/Desktop/github/
 
 printf "> Cloning setup repository...\n"
 cd ~/Desktop/github/
-git clone https://github.com/marcosnevary/my-setup.git
+git clone git@github.com:marcosnevary/my-setup.git
 
 printf "> Linking dotfiles...\n"
 cd my-setup/config

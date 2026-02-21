@@ -3,6 +3,9 @@ start-at-login = true
 default-root-container-orientation = 'auto'
 accordion-padding = 0
 
+on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
+automatically-unhide-macos-hidden-apps = true
+
 [gaps]
 inner.horizontal = 8
 inner.vertical   = 8
