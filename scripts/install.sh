@@ -9,11 +9,10 @@ fi
 brew update
 
 printf "> Installing CLI tools...\n"
-brew install git stow kitty neovim
+brew install git stow kitty neovim node uv oven-sh/bun/bun
 
 printf "> Installing applications...\n"
-brew install --cask zen mos raycast bitwarden filen obsidian discord spotify
-brew install --cask nikitabobko/tap/aerospace
+brew install --cask zen mos raycast bitwarden filen obsidian discord spotify nikitabobko/tap/aerospace
 brew install yazi ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide resvg imagemagick font-symbols-only-nerd-font
 
 printf "> Installing fonts...\n"
