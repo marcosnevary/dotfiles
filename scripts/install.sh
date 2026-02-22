@@ -43,10 +43,10 @@ mkdir -p ~/Desktop/github/
 
 printf "> Cloning setup repository...\n"
 cd ~/Desktop/github/
-git clone git@github.com:marcosnevary/my-setup.git
+git clone git@github.com:marcosnevary/apparatus.git
 
 printf "> Linking dotfiles...\n"
-cd my-setup/config
+cd apparatus/config
 stow -t ~ zsh kitty nvim aerospace yazi
 
 printf "> Setup complete. Please restart Kitty.\n"
